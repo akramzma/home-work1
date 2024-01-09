@@ -1,0 +1,427 @@
+body{
+    margin: 0;
+}
+
+.gradient-image {
+    position: relative;
+    display: inline-block;
+
+}
+
+.first-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#happy-new-year {
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
+        linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+    background-position: left center, right center;
+    background-size: 50% 100%, 50% 100%;
+    background-repeat: no-repeat;
+}
+
+#happy-new-year-txt {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30vh;
+    font-family: Merriweather;
+}
+
+#new-year-party-text {
+    display: flex;
+    position: absolute;
+    font-size: 72px;
+    color: white;
+    margin-bottom: 14vh;
+    font-family: Merriweather;
+}
+
+#celebration-text {
+    display: flex;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    font-family: Merriweather;
+}
+
+.offer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#discount-text {
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: 10vh;
+    color: #FF0000;
+    font-family: Inter;
+}
+
+#discount-title {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5vh;
+    color: #FF0000;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+#all-cat-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: black;
+    font-family: Inter;
+}
+
+.only-new-year {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#only-new-year-img {
+    margin-top: 10vh;
+}
+
+.mid-night-party-area {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-image-container {
+    /* margin-top: 10vh; */
+    position: relative;
+    display: inline-block;
+}
+
+.new-gradient-overlay {
+    position: absolute;
+    margin-top: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+    background-position: left center;
+    background-size: 50% 100%, 50% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#welcome-party-img {
+    margin-top: 10vh;
+}
+
+#welcome-midnight-party-text {
+    position: absolute;
+    color: white;
+    margin-right: 30%;
+    width: 30%;
+    letter-spacing: 5px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+
+#welcome-midnight-party-title {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    margin-right: 20%;
+    width: 40%;
+    margin-top: 30vh;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+#join-now-text {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    margin-right: 10%;
+    width: 50%;
+    margin-top: 60vh;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+#new-this-year-img {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 15vh;
+}
+
+.place-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#FFB996, white);
+    height: 50vh;
+    margin-inline: 12vw;
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.place-image-container {
+    /* margin-top: 10vh; */
+    position: relative;
+    display: inline-block;
+}
+
+.place-gradient-overlay {
+    position: absolute;
+    margin-top: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), black);
+    background-position: top center;
+    background-size: 50% 100%, 50% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.place-area {
+    display: flex;
+    align-self: center;
+    margin-top: 10vh;
+}
+
+.place-text {
+    font-size: 25px;
+    color: #FF0000;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.place-detail-text {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.date-container {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.date-text {
+    font-size: 25px;
+    color: #FF0000;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.date-detail-text {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.time-container {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.time-text {
+    font-size: 25px;
+    color: #FF0000;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.time-detail-text {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Inter;
+}
+
+.join-now-button-area {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.join-now-button {
+    margin-top: 3vw;
+    height: 5vh;
+    padding-inline: 25px;
+    border-radius: 5px;
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.whats {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.whats-func {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.holidays-area {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+.holiday {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Merriweather;
+    color: #FF0000;
+    font-size: 48px;
+}
+
+.sale {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.sale-title-area {
+    display: flex;
+    justify-content: center;
+    padding-inline: 20%;
+}
+
+.sale-title {
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.sale-banner-area {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.inner-banner-area {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    margin-inline: 10.2vw;
+}
+
+#discount-new-img {
+    position: absolute;
+    margin-right: 16vw;
+    margin-top: 10vh;
+}
+
+#gift-box {
+    position: absolute;
+    margin-right: 40vw;
+    margin-top: 25vh;
+}
+
+#girl {
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+.footer-content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    font-family: Inter;
+    margin-top: 50px ;
+}
+
+.footer-parent{
+    
+    width: 100%;
+}
+.left-section {
+    margin-top: 10px;
+    font-size: medium;
+    display: flex;
+    justify-content:space-around;
+    
+  }
+
+.middle-section{
+    border-top: #FFFFFF26;
+    border-bottom: #FFFFFF26;
+    border-left: black;
+    border-right: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.right-section{
+    margin-top: 10px;
+    font-size: medium;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 180px;
+    margin-left: 250px;
+
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+}
+
+
+ 
+
